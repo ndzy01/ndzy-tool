@@ -4,7 +4,7 @@ import { PicGo } from 'picgo';
 import { v4 as uuidv4 } from 'uuid';
 import { BASE_URL, DOCS_ROOT, STORE_GITHUB } from './config';
 
-const picgo = new PicGo(); // 使用默认的配置文件
+const picgo = new PicGo('./picgoConfig.json'); // 使用默认的配置文件
 const docsRoot = DOCS_ROOT;
 const baseUrl = BASE_URL;
 const store_github = STORE_GITHUB;
