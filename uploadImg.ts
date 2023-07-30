@@ -10,7 +10,7 @@ const baseUrl = BASE_URL;
 const store_github = STORE_GITHUB;
 
 const saveImg = (name: string, storeGithub: string) => {
-  let data: any = fs.readFileSync('./public/img_db.json', 'utf-8');
+  let data: any = fs.readFileSync('./dist/img_db.json', 'utf-8');
   data = JSON.parse(data);
   const result = data.find((item: { label: string; value: string[] }) => item.label === storeGithub);
 
@@ -24,7 +24,7 @@ const saveImg = (name: string, storeGithub: string) => {
     data.push({ label: storeGithub, value: [] });
   }
 
-  fs.writeFileSync('./public/img_db.json', JSON.stringify(data), 'utf-8');
+  fs.writeFileSync('./dist/img_db.json', JSON.stringify(data), 'utf-8');
 };
 
 const readFileList = (dir: string, filesList: { filePath: string }[] = []) => {
