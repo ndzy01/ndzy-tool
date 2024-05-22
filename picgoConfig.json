@@ -1,0 +1,14 @@
+{
+  "picBed": {
+    "uploader": "github",
+    "current": "github",
+    "github": {
+      "repo": "ndzy01/img",
+      "branch": "main",
+      "token": "xxx",
+      "path": "",
+      "customUrl": "https://cdn.jsdelivr.net/gh/ndzy01/img"
+    }
+  },
+  "picgoPlugins": {}
+}

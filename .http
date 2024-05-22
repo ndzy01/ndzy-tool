@@ -1,0 +1,29 @@
+
+curl 'https://ndzy-s.vercel.app/imgs/save' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQxMmY3NzYzLWQ1ODgtNGJmYS04YzFmLTM2MmRlNTM3NWZlNSIsIm5hbWUiOiJuZHp5IiwibW9iaWxlIjoiMjAyNCIsImlhdCI6MTcxMzU4NjE0MSwiZXhwIjozOTIyNjE4MTQxfQ.TCsHIFLafQ0qbK3S9hzCBdDPm_CBf_3o2DLqXQts4Cs' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://ndzy01.gitee.io' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1' \
+  --data-raw '{"github":"img","url":"https://cdn.jsdelivr.net/gh/ndzy01/img/2024-05-11-15-29-26_ndzy.png"}' \
+  --compressed
+
+### 登录
+curl 'https://ndzy-s.vercel.app/user/login' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: zh-CN,zh;q=0.9' \
+  -H 'Authorization: Basic eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIxMDAwNmY3LTMzYzQtNDhhMi1iODkwLTVhMzdmNzQyMDMwYyIsIm5hbWUiOiLmuLjlrqIiLCJtb2JpbGUiOiIyIiwiaWF0IjoxNzEwOTQ2Nzk0LCJleHAiOjM5MTk5Nzg3OTR9.s_C2Qh3jVtrGe-RuOqebGNoB8F0f-ZJ9anZ4qAKqLMQ' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/json' \
+  -H 'Origin: https://ndzy01.gitee.io' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: cross-site' \
+  -H 'User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1' \
+  --data-raw '{"mobile":"2024","password":"ndzy@2024"}' \
+  --compressed

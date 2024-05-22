@@ -1,0 +1,23 @@
+{
+  "name": "ndzy-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "img": "ts-node uploadImg.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dayjs": "^1.11.10",
+    "picgo": "^1.5.4",
+    "ts-node": "^10.9.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.2",
+    "gh-pages": "^5.0.0"
+  }
+}
